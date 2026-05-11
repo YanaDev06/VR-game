@@ -1,7 +1,10 @@
 using UnityEngine;
 using UnityEngine.AI;
+
+
 public class EnemyStateManager : MonoBehaviour
 {
+    [SerializeField] public Animator animator;
     [SerializeField] NavMeshAgent navMeshAgent;
     [SerializeField] Transform player;
     [SerializeField] public float walkSpeed;
@@ -26,6 +29,7 @@ public class EnemyStateManager : MonoBehaviour
 
     private void Start()
     {
+        
         SwitchState(idleState);
     }
 
@@ -49,5 +53,13 @@ public class EnemyStateManager : MonoBehaviour
     public float DistanceToTarget()
     {
         return (transform.position - target.position).magnitude;
+    }
+
+    public void OnAnimatorMove()
+    {
+        if (navMeshAgent != null)
+        {
+            transform.position = navMeshAgent.nextPosition;
+        }
     }
 }
