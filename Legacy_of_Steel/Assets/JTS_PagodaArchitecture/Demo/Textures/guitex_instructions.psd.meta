@@ -2,11 +2,11 @@ fileFormatVersion: 2
 guid: 4d95cd941da41b4459aee2b7222e81dc
 AssetOrigin:
   serializedVersion: 1
-  productId: 113177
-  packageName: Pagoda Architecture
-  packageVersion: 1.0
+  productId: 68373
+  packageName: The Samurai Sword
+  packageVersion: 1.4
   assetPath: Assets/JTS_PagodaArchitecture/Demo/Textures/guitex_instructions.psd
-  uploadId: 233712
+  uploadId: 337636
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -89,19 +89,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 512
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
     maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
