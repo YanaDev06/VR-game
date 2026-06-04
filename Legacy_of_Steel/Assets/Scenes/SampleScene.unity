@@ -448,7 +448,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5105899
 Transform:
@@ -903,6 +903,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_Name
       value: JapaneseLamp (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2915,6 +2923,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JapaneseLamp (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0
@@ -2930,6 +2942,10 @@ PrefabInstance:
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3945,7 +3961,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &176163992
 Transform:
@@ -10027,7 +10043,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &384101162
 Transform:
@@ -10318,7 +10334,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &399620003
 Transform:
@@ -16569,7 +16585,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &640320711
 Transform:
@@ -17571,6 +17587,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_Name
       value: JapaneseLamp
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19629,6 +19653,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JapaneseLamp (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0
@@ -19644,6 +19672,10 @@ PrefabInstance:
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24066,6 +24098,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JapaneseLamp (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
@@ -24081,6 +24117,10 @@ PrefabInstance:
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24106,7 +24146,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &930086797
 Transform:
@@ -28577,7 +28617,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1096950951
 Transform:
@@ -29986,6 +30026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JapaneseLamp (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
@@ -30001,6 +30045,10 @@ PrefabInstance:
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31378,6 +31426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JapaneseLamp (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
@@ -31393,6 +31445,10 @@ PrefabInstance:
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32316,6 +32372,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JapaneseLamp (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0
@@ -32331,6 +32391,10 @@ PrefabInstance:
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32963,6 +33027,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_Name
       value: JapaneseLamp (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38184,6 +38256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JapaneseLamp (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0
@@ -38199,6 +38275,10 @@ PrefabInstance:
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38677,7 +38757,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1449094242
 Transform:
@@ -38947,7 +39027,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1456399586
 Transform:
@@ -39402,6 +39482,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_Name
       value: JapaneseLamp (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41414,7 +41502,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1589163461
 Transform:
@@ -41839,7 +41927,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1634139295
 Transform:
@@ -42573,6 +42661,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_Name
       value: JapaneseLamp (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -47175,6 +47271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JapaneseLamp (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
@@ -47190,6 +47290,10 @@ PrefabInstance:
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -47853,7 +47957,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1834068944
 Transform:
@@ -47980,7 +48084,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1836771618
 Transform:
@@ -48138,7 +48242,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1842846432
 Transform:
@@ -54937,6 +55041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JapaneseLamp (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0
@@ -54952,6 +55060,10 @@ PrefabInstance:
     - target: {fileID: 1151388028547126963, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a166356502ef90a43b5cc8eb8979638d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
