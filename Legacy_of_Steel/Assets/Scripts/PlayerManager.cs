@@ -9,6 +9,7 @@ public class PlayerManager : MonoBehaviour
     public static int playerHealth;
     public static bool gameOver;
     public TextMeshProUGUI playerHealthText;
+   
 
     void Start()
     {
@@ -19,11 +20,11 @@ public class PlayerManager : MonoBehaviour
 
     void Update()
     {
-        playerHealthText.text = " " + playerHealth;
+        playerHealthText.text = "" + playerHealth;
 
         if (gameOver)
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("Forest");
         }
     }
 
@@ -31,8 +32,9 @@ public class PlayerManager : MonoBehaviour
     {
         playerHealth -= damageCount;
 
+
         if (playerHealth <= 0)
-            gameOver = true; 
+            gameOver = true;
 
     }
 }
