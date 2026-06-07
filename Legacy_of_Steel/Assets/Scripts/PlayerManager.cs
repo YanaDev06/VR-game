@@ -17,6 +17,11 @@ public class PlayerManager : MonoBehaviour
         gameOver = false;
 
     }
+    
+    void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
 
     void Update()
     {
