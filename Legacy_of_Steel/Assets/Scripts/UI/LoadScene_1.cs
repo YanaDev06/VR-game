@@ -14,6 +14,6 @@ public class LoadScene : MonoBehaviour
     {
         loadingScreen.SetActive(true);
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Dojo1");
     }
 }

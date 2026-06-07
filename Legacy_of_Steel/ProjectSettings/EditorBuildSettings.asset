@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 8653c434e9f365d47a16ae52a5f01094
+  - enabled: 1
+    path: Assets/Scenes 2/Dojo1.unity
+    guid: bfd1715d3f54aba4698c472b21e88f8e
+  - enabled: 1
+    path: Assets/Scenes 2/Forest.unity
+    guid: ca19038bb90a1a649abad1c491e7a0c2
   m_configObjects:
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: d834844119c947042ba9c3042566e8ef, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
