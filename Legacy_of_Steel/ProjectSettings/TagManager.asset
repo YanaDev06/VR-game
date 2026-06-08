@@ -6,6 +6,7 @@ TagManager:
   tags:
   - VRController
   - Points
+  - Dummy
   layers:
   - Default
   - TransparentFX

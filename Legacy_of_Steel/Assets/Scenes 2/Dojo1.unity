@@ -14331,6 +14331,10 @@ PrefabInstance:
       value: training_dummy (4)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
+      propertyPath: m_TagString
+      value: Dummy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -15187,6 +15191,8 @@ GameObject:
   - component: {fileID: 657153128}
   - component: {fileID: 657153127}
   - component: {fileID: 657153126}
+  - component: {fileID: 657153131}
+  - component: {fileID: 657153132}
   m_Layer: 0
   m_Name: Katana_Root
   m_TagString: Untagged
@@ -15403,7 +15409,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657153124}
   serializedVersion: 5
-  m_Mass: 3
+  m_Mass: 1.5
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -15422,6 +15428,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &657153131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657153124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5422c7b69c75da47ab5ec8f6b14e381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PersistGrabbedItem
+--- !u!114 &657153132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657153124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9f49e0f448e3d84bbc2510434556b50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KatanaHitSound
+  hitClip: {fileID: 8300000, guid: 8bfe69c0f3868e24885e42123ce6edb8, type: 3}
+  minHitSpeed: 1
 --- !u!1 &666661228
 GameObject:
   m_ObjectHideFlags: 0
@@ -15545,7 +15577,7 @@ GameObject:
   - component: {fileID: 686161349}
   m_Layer: 0
   m_Name: Dummies
-  m_TagString: Untagged
+  m_TagString: Dummy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15649,6 +15681,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
       propertyPath: m_Name
       value: training_dummy (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
+      propertyPath: m_TagString
+      value: Dummy
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16902,6 +16938,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
       propertyPath: m_Name
       value: training_dummy (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
+      propertyPath: m_TagString
+      value: Dummy
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19368,6 +19408,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
       propertyPath: m_Name
       value: training_dummy (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
+      propertyPath: m_TagString
+      value: Dummy
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -28226,6 +28270,10 @@ PrefabInstance:
       value: training_dummy (9)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
+      propertyPath: m_TagString
+      value: Dummy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -35737,6 +35785,10 @@ PrefabInstance:
       value: training_dummy (7)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
+      propertyPath: m_TagString
+      value: Dummy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -36101,6 +36153,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
       propertyPath: m_Name
       value: training_dummy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
+      propertyPath: m_TagString
+      value: Dummy
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -37363,6 +37419,10 @@ PrefabInstance:
       value: training_dummy (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
+      propertyPath: m_TagString
+      value: Dummy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d88a3c76116ff044ab972502cb843a3e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -37956,6 +38016,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2704e4612bf8fd045ab9919c02bd5fda, type: 3}
       propertyPath: m_Name
       value: dummy (panda)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2704e4612bf8fd045ab9919c02bd5fda, type: 3}
+      propertyPath: m_TagString
+      value: Dummy
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2704e4612bf8fd045ab9919c02bd5fda, type: 3}
       propertyPath: m_StaticEditorFlags
