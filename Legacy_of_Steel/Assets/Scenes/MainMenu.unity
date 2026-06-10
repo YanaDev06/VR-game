@@ -51454,9 +51454,6 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2351652361658759767, guid: 6269d3f1e31997148a941c6609bd53a0, type: 3}
-    - {fileID: 8478479406742339680, guid: 6269d3f1e31997148a941c6609bd53a0, type: 3}
-    - {fileID: 8031159426002310531, guid: 6269d3f1e31997148a941c6609bd53a0, type: 3}
-    - {fileID: 8002306303180947791, guid: 6269d3f1e31997148a941c6609bd53a0, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6504710888816276685, guid: 6269d3f1e31997148a941c6609bd53a0, type: 3}
       insertIndex: -1
@@ -51742,7 +51739,7 @@ MonoBehaviour:
   audioMixer: {fileID: 24100000, guid: 17abec024a231c048b72e63aaa54cf02, type: 2}
   musicSlider: {fileID: 1932376571}
   sfxSlider: {fileID: 1132047340}
-  brightnessSlider: {fileID: 0}
+  brightnessSlider: {fileID: 1324785878}
   postProcessVolume: {fileID: 745847176}
 --- !u!1001 &995635436
 PrefabInstance:
@@ -51925,7 +51922,7 @@ GameObject:
   - component: {fileID: 1037272569}
   - component: {fileID: 1037272568}
   m_Layer: 0
-  m_Name: Music
+  m_Name: Audio Source
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52054,7 +52051,7 @@ GameObject:
   - component: {fileID: 1038057486}
   - component: {fileID: 1038057485}
   m_Layer: 0
-  m_Name: SFX
+  m_Name: Audio Source (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53394,6 +53391,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 73.708824, y: 71.67883, z: 184.99335}
   m_Center: {x: 54.674957, y: 1.0934477, z: -0.11329203}
+--- !u!114 &1324785878 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3171434832753455693, guid: 6269d3f1e31997148a941c6609bd53a0, type: 3}
+  m_PrefabInstance: {fileID: 763869297}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
 --- !u!1 &1345572955
 GameObject:
   m_ObjectHideFlags: 0
